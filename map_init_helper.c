@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   map_init_helper.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: melayoub <melayoub@student.42.fr>          +#+  +:+       +#+        */
+/*   By: admin <admin@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/27 23:56:26 by melayoub          #+#    #+#             */
-/*   Updated: 2023/09/28 01:19:10 by melayoub         ###   ########.fr       */
+/*   Updated: 2023/10/01 17:52:46 by admin            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,7 @@ char	*ft_fill(char *line, int flag)
 	else
 		i = 1;
 	if(!is_white_space(line[i]))
-		ft_error("ERROR: incorrect dir syntax!");
+		ft_error("ERROR: incorrect dir/clr syntax!");
 	while (is_white_space(line[i]))
 		i++;
 	start = i;

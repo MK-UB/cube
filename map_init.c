@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   map_init.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: melayoub <melayoub@student.42.fr>          +#+  +:+       +#+        */
+/*   By: admin <admin@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/27 23:40:21 by melayoub          #+#    #+#             */
-/*   Updated: 2023/09/28 01:47:16 by melayoub         ###   ########.fr       */
+/*   Updated: 2023/10/01 17:57:46 by admin            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,7 +42,7 @@ void	maper(t_cube	*content, char	*av)
 
 	fd = open(av, O_RDONLY);
 	if (fd == -1)
-		ft_error("ERROR: Map not found!");
+		ft_error("ERROR: map_file not found!");
 	while (1)
 	{
 		line = get_next_line(fd);

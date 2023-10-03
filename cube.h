@@ -3,17 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   cube.h                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: melayoub <melayoub@student.42.fr>          +#+  +:+       +#+        */
+/*   By: admin <admin@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/12 00:51:25 by melayoub          #+#    #+#             */
-/*   Updated: 2023/09/27 23:58:25 by melayoub         ###   ########.fr       */
+/*   Updated: 2023/10/01 17:49:28 by admin            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef CUBE_H
 # define CUBE_H
 
-# include <mlx.h>
+// # include <mlx.h>
 # include <unistd.h>
 # include <stdio.h>
 # include <stdlib.h>

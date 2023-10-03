@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: melayoub <melayoub@student.42.fr>          +#+  +:+       +#+         #
+#    By: admin <admin@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/09/11 20:31:08 by melayoub          #+#    #+#              #
-#    Updated: 2023/09/27 23:57:11 by melayoub         ###   ########.fr        #
+#    Updated: 2023/10/01 17:50:15 by admin            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,7 +15,7 @@ NAME = cube
 # NAME_B = cube_bonus
 HEADER = cube.h
 # HEADER_B = cube_bonus.h
-MINILIBX = -lmlx -framework OpenGL -framework AppKit -g
+# MINILIBX = -lmlx -framework OpenGL -framework AppKit -g
 
 SRC = utils2.c utils_splt.c utils_map.c\
 	parsing/path_parse.c parsing/map_perimeter.c parsing/map_components.c \
@@ -34,7 +34,8 @@ all: $(NAME)
 # bonus : $(NAME_B)
 
 $(NAME): $(SRC) $(HEADER)
-	$(CC) $(FLAGS) $(SRC) -o $(NAME) $(MINILIBX)
+	$(CC) $(FLAGS) $(SRC) -o $(NAME) 
+#  $(MINILIBX)
 
 # $(NAME_B): $(B_SRC) $(HEADER_B)
 #	$(CC) $(FLAGS) $(B_SRC) -o $(NAME_B) $(MINILIBX)
